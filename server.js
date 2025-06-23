@@ -41,7 +41,9 @@ const preprocessImage = async (buffer) => {
 
   return imageTensor;
 };
-
+app.get("/", (req, res) => {
+  res.send("Hello World!");
+});
 // API Endpoint
 app.post("/predict", upload.single("image"), async (req, res) => {
   try {
