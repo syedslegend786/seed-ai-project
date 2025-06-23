@@ -1,0 +1,80 @@
+# See https://help.github.com/articles/ignoring-files for more about ignoring files.
+
+# dependencies
+node_modules/
+jspm_packages/
+
+# testing
+coverage/
+jest/
+*.test.js
+
+# production
+build/
+dist/
+
+# misc
+.DS_Store
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# IDEs and editors
+.vscode/
+.idea/
+.editorconfig
+*.iml
+*.ipr
+*.iws
+*.sublime-text
+*.sublime-workspace
+
+# OS generated files
+.AppleDouble
+.LSOverride
+
+# debugging
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+
+# Express.js
+config/
+logs/
+public/
+uploads/
+views/
+
+# Environment variables
+.env
+.env.example
+
+# Build artifacts
+/dist
+/build
+/coverage
